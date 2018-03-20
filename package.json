@@ -1,0 +1,21 @@
+{
+  "name": "vue-js-homework15",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/flaviusemil/vue-js-homework15",
+  "author": "Flavius Condurache",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
+    "vue": "^2.5.15",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  }
+}
