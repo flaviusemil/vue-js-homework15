@@ -9,7 +9,7 @@ require('bootstrap');
 let app = new Vue({
     el: '#homework-15',
     data: {
-        value: 'test'
+        value: ''
     },
     methods: {
         sayHi: function () {
