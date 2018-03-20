@@ -20,7 +20,7 @@
         </div>
 
         <div>
-            <input type="text" />
+            <input v-on:keyup.Enter="getInputValue" type="text" />
             <p>{{ value }}</p>
         </div>
 
