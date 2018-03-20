@@ -14,6 +14,9 @@ let app = new Vue({
     methods: {
         sayHi: function () {
             alert("Sample alert");
+        },
+        getInputValue: function (event) {
+            this.value = event.target.value;
         }
     }
 });
